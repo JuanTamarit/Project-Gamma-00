@@ -57,7 +57,75 @@ function Dropdown() {
               </li>
             </ul>
           </li>
-          {/* Resto del contenido del desplegable */}
+          <li>
+            <div
+              className={`h5 dropdown__category ${
+                dropdownActive ? "active" : ""
+              }`}
+            >
+              Diseño gráfico<span className="dropdown__icon"></span>
+            </div>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div
+              className={`h5 dropdown__category ${
+                dropdownActive ? "active" : ""
+              }`}
+            >
+              Desarrollo web<span className="dropdown__icon"></span>
+            </div>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div
+              className={`h5 dropdown__category ${
+                dropdownActive ? "active" : ""
+              }`}
+            >
+              Otros<span className="dropdown__icon"></span>
+            </div>
+            <ul className="text-default dropdown__projects-list">
+              <li>
+                <span>SubMenu01</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu02</span>
+                <span>Tipology</span>
+              </li>
+              <li>
+                <span>SubMenu03</span>
+                <span>Tipology</span>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </>
