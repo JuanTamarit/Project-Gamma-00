@@ -29,10 +29,10 @@ export default function Home() {
                 Creativo
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                Digital
+                digital
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                Multidisciplinar
+                multidisciplinar
               </h2>
             </div>
           </div>
