@@ -47,7 +47,7 @@ function Animacion() {
         <div className="project__content">
           <div className="project__img-container">
             <video className="project__img" width="100%" height="auto" controls>
-              <source src="src/assets/img/motion.mp4" type="video/mp4" />
+              <source src="/img/motion.mp4" type="video/mp4" />
             </video>
             <span className="project__img-container--caption"></span>
           </div>
