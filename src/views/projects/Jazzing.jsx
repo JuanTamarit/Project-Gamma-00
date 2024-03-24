@@ -46,7 +46,7 @@ function Jazzing() {
 
         <div className="project__content">
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing1.jpg" alt="" />
+            <img src="/img/jazzing1.jpg" alt="" />
             <span className="project__img-container--caption">
               Logotipo creado a partir de la tipografía Poppins, emulando el
               clásico juego de bloques de construcción
@@ -72,7 +72,7 @@ function Jazzing() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing2.jpg" alt="" />
+            <img src="/img/jazzing2.jpg" alt="" />
             <span className="project__img-container--caption">
               Diferentes versiones del identificador
             </span>
@@ -96,13 +96,13 @@ function Jazzing() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing3.jpg" alt="" />
+            <img src="/img/jazzing3.jpg" alt="" />
             <span className="project__img-container--caption">
               Aplicación de la identidad en un producto de papelería
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/jazzing4.jpg" alt="" />
+            <img src="/img/jazzing4.jpg" alt="" />
             <span className="project__img-container--caption">
               Aplicación de la identidad en un producto de Merchandising
             </span>
