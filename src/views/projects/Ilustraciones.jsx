@@ -61,7 +61,7 @@ function Ilustraciones() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/ilustraciones/ilus1.jpg" alt="" />
+            <img src="/img/ilustraciones/ilus1.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project-info">
@@ -81,7 +81,7 @@ function Ilustraciones() {
           </div>
 
           <div className="project__img-container">
-            <img src="src/assets/img/ilustraciones/ilus2.jpg" alt="" />
+            <img src="/img/ilustraciones/ilus2.jpg" alt="" />
             <span className="project__img-container--caption">
               Observando la imagen desde diferentes ángulos se puede observar la
               aparición de un monumento representativo del lugar.
@@ -106,7 +106,7 @@ function Ilustraciones() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/ilustraciones/ilus3.jpg" alt="" />
+            <img src="/img/ilustraciones/ilus3.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
 
@@ -124,7 +124,7 @@ function Ilustraciones() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/ilustraciones/ilus4.jpg" alt="" />
+            <img src="/img/ilustraciones/ilus4.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
 
