@@ -49,7 +49,7 @@ function Packaging() {
 
         <div className="project__content">
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack1.jpg" alt="" />
+            <img src="/img/packaging/pack1.jpg" alt="" />
             <span className="project__img-container--caption">
               Resultado del rediseño
             </span>
@@ -75,7 +75,7 @@ function Packaging() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack2.jpg" alt="" />
+            <img src="/img/packaging/pack2.jpg" alt="" />
             <span className="project__img-container--caption">
               Portada original{" "}
             </span>
@@ -98,31 +98,31 @@ function Packaging() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack3.jpg" alt="" />
+            <img src="/img/packaging/pack3.jpg" alt="" />
             <span className="project__img-container--caption">
               Detalle del resultado de la portada.
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack4.jpg" alt="" />
+            <img src="/img/packaging/pack4.jpg" alt="" />
             <span className="project__img-container--caption">
               Detalle del "lomo" del CD.
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack5.jpg" alt="" />
+            <img src="/img/packaging/pack5.jpg" alt="" />
             <span className="project__img-container--caption">
               Contraportada.
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack6.jpg" alt="" />
+            <img src="/img/packaging/pack6.jpg" alt="" />
             <span className="project__img-container--caption">
               Parte exterior o frontal, del folleto interior.
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/packaging/pack7.jpg" alt="" />
+            <img src="/img/packaging/pack7.jpg" alt="" />
             <span className="project__img-container--caption">
               Parte interior del folleto.
             </span>
