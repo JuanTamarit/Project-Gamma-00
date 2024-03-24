@@ -8,7 +8,7 @@ function Effect(props) {
         <div className="fig-1">
           <div className="fig-1_mask"></div>
           <div className="fig-1_mask-2"></div>
-          <img src="src/components/effect/Smoke-1.png" alt="" />
+          <img src="/img/Smoke-1.png" alt="" />
         </div>{" "}
       </div>
     </>
