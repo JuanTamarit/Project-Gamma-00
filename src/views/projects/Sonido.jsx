@@ -51,10 +51,7 @@ function Sonido() {
               <div className="h4 project-info__title">3 p.m in NY</div>
               <div className="h5 project-info__subtitle">
                 <audio className="audioplayer" controls>
-                  <source
-                    src="src/assets/sounds/Esbozosonoro1.mp3"
-                    type="audio/mp3"
-                  />
+                  <source src="/sounds/Esbozosonoro1.mp3" type="audio/mp3" />
                 </audio>{" "}
               </div>
             </div>
@@ -68,10 +65,7 @@ function Sonido() {
               <div className="h4 project-info__title">Esbozo sonoro nº1</div>
               <div className="h5 project-info__subtitle">
                 <audio className="audioplayer" controls>
-                  <source
-                    src="src/assets/sounds/Esbozosonoro2.mp3"
-                    type="audio/mp3"
-                  />
+                  <source src="/sounds/Esbozosonoro2.mp3" type="audio/mp3" />
                 </audio>{" "}
               </div>
             </div>
@@ -86,10 +80,7 @@ function Sonido() {
               <div className="h4 project-info__title">Esbozo sonoro nº2</div>
               <div className="h5 project-info__subtitle">
                 <audio className="audioplayer" controls>
-                  <source
-                    src="src/assets/sounds/Esbozosonoro3.mp3"
-                    type="audio/mp3"
-                  />
+                  <source src="/sounds/Esbozosonoro3.mp3" type="audio/mp3" />
                   Tu navegador no soporta el elemento de audio.
                 </audio>{" "}
               </div>
