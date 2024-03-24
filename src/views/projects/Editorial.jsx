@@ -46,7 +46,7 @@ function Editorial() {
 
         <div className="project__content">
           <div className="project__img-container">
-            <img src="src/assets/img/editorial/edit1.jpg" alt="" />
+            <img src="/img/editorial/edit1.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           {/* <div className="project-info">
@@ -66,24 +66,24 @@ function Editorial() {
             </div>
           </div> */}
           <div className="project__img-container">
-            <img src="src/assets/img/editorial/edit2.jpg" alt="" />
+            <img src="/img/editorial/edit2.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/editorial/edit3.jpg" alt="" />
+            <img src="/img/editorial/edit3.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/editorial/edit4.jpg" alt="" />
+            <img src="/img/editorial/edit4.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/editorial/edit5.jpg" alt="" />
+            <img src="/img/editorial/edit5.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
 
           <div className="project__img-container">
-            <img src="src/assets/img/editorial/edit6.jpg" alt="" />
+            <img src="/img/editorial/edit6.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
 
