@@ -100,7 +100,7 @@ function Dropdown() {
               <Link to="/animacion" className="link">
                 <li>
                   <span>Retrato animado</span>
-                  <span>Animación, Diseño sonoro</span>
+                  <span>Animación</span>
                 </li>
               </Link>
             </ul>
