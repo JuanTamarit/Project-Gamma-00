@@ -47,7 +47,7 @@ function Maslow() {
 
         <div className="project__content">
           <div className="project__img-container">
-            <img src="src/assets/img/maslow/maslow1.jpg" alt="" />
+            <img src="/img/maslow/maslow1.jpg" alt="" />
             <span className="project__img-container--caption">
               Identificador completo, con un isotipo que puede funcionar por
               separado
@@ -70,7 +70,7 @@ function Maslow() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/maslow/maslow2.jpg" alt="" />
+            <img src="/img/maslow/maslow2.jpg" alt="" />
             <span className="project__img-container--caption">
               Muestra del manual de identidad
             </span>
@@ -94,7 +94,7 @@ function Maslow() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/maslow/maslow3.jpg" alt="" />
+            <img src="/img/maslow/maslow3.jpg" alt="" />
             <span className="project__img-container--caption">
               Extracto del manual de identidad; paleta de colores. El rojo juega
               un papel crucial. Como pigmento primitivo representa el valor de
@@ -102,20 +102,20 @@ function Maslow() {
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/maslow/maslow4.jpg" alt="" />
+            <img src="/img/maslow/maslow4.jpg" alt="" />
             <span className="project__img-container--caption">
               Extracto del manual de identidad mostrando las combinaciones de
               color correctas en el uso del identificador.
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/maslow/maslow5.jpg" alt="" />
+            <img src="/img/maslow/maslow5.jpg" alt="" />
             <span className="project__img-container--caption">
               Muestra del diseño de publicaciones cuadradas para redes sociales.{" "}
             </span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/maslow/maslow6.jpg" alt="" />
+            <img src="/img/maslow/maslow6.jpg" alt="" />
             <span className="project__img-container--caption">
               Muestra de diferentes aplicaciones de la identidad visual.{" "}
             </span>
