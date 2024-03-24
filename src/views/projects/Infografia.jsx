@@ -46,7 +46,7 @@ function Infografia() {
 
         <div className="project__content">
           <div className="project__img-container">
-            <img src="src/assets/img/infografia/info1.jpg" alt="" />
+            <img src="/img/infografia/info1.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project-info">
@@ -63,20 +63,20 @@ function Infografia() {
             </div>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/infografia/info2.jpg" alt="" />
+            <img src="/img/infografia/info2.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
 
           <div className="project__img-container">
-            <img src="src/assets/img/infografia/info3.jpg" alt="" />
+            <img src="/img/infografia/info3.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/infografia/info4.jpg" alt="" />
+            <img src="/img/infografia/info4.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
           <div className="project__img-container">
-            <img src="src/assets/img/infografia/info5.jpg" alt="" />
+            <img src="/img/infografia/info5.jpg" alt="" />
             <span className="project__img-container--caption"></span>
           </div>
 
