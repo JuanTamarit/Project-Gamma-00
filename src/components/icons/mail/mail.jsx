@@ -5,7 +5,7 @@ function Mail(props) {
   const { showIcon } = props;
 
   return (
-    <img className="mail-icon" src="/assets/img/mail-icon-new.svg"></img>
+    <img className="mail-icon" src="/icons/mail-icon-new.svg"></img>
     // <svg
     //   className="mail-icon"
     //   id={showIcon}
