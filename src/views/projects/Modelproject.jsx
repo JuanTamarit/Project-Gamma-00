@@ -162,7 +162,7 @@ function Modelproject() {
               podría resumir en el siguiente esquema:
             </p>
             <div className="project__img-container">
-              <img src="src/assets/img/sitemap.png" alt="" />
+              <img src="/img/sitemap.png" alt="" />
               <span className="project__img-container--caption">
                 Tendremos una página principal, una página, "Portafolio", donde
                 se podrán ver categorizados todos los proyectos según la
@@ -180,7 +180,7 @@ function Modelproject() {
               más fácil y rápida posible.
             </p>
             <div className="project__img-container">
-              <img src="src/assets/img/userflow-bn.png" alt="" />
+              <img src="/img/userflow-bn.png" alt="" />
               <span className="project__img-container--caption">
                 Diagrama de flujo que nos permite visualizar o crear el
                 recorrido de un usuario desde que accede a nuestra web hasta que
@@ -203,7 +203,7 @@ function Modelproject() {
             </div>
 
             <div className="project__img-container" id="wireframes-img">
-              <img src="src/assets/img/wireframes.jpg" alt="" />
+              <img src="/img/wireframes.jpg" alt="" />
               <span className="project__img-container--caption">
                 Ejemplo de parte de los wireframes realizados para obtener la
                 estructura de la página principal.
@@ -234,7 +234,7 @@ function Modelproject() {
           </div>
 
           <div className="project__img-container">
-            <img src="src/assets/img/Figma-screenshot.png" alt="" />
+            <img src="/img/Figma-screenshot.png" alt="" />
             <span className="project__img-container--caption">
               Muestra del diseño original, el cual contiene diferentes elementos
               estandarizados, conformando un pequeño design system.

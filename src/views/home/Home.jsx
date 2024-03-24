@@ -89,6 +89,7 @@ export default function Home() {
                 <Skill type="straight" text="Motion Graphics" />
                 <Skill type="rounded" text="Diseño sonoro" />
                 <Skill type="rounded" text="Vídeo" />
+                <Skill type="straight" text="Creative Coding" />
               </div>
             </div>
             {/* <Sphereempty /> */}
