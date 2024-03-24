@@ -148,7 +148,7 @@ function Modelproject() {
           {/* <User /> */}
           <div className="project__content--ia">
             <div className="project__img-container">
-              <img src="public/img/content-list.png" alt="" />
+              <img src="/img/content-list.png" alt="" />
               <span className="project__img-container--caption">
                 Utilizo las hojas de cálculo para visualizar todo el contenido a
                 organizar.
