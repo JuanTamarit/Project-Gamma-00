@@ -5,24 +5,26 @@
 .credits {
     position: absolute;
     z-index: 0;
-    bottom: calc(120px + 3.76vh);
+    bottom: calc(120px + 3.76vh);    
     display: inline-block;
     // border: 1px solid $color-primary;
     border-radius: 0 100px 100px 0;
     padding: 1.2rem 4rem 1.2rem 1.2rem;
     margin: 0 $horizontal-margins-mobile;
     // background-color: white;
+
     @include tablet {
         display: inline-block;
         text-align: right;
         padding: 1.2rem 1.2rem 1.2rem 4rem;
         border-radius: 100px 0 0 100px;
         margin: 0 $horizontal-margins-tablet;
-        right: 0;
-
-        
-        
+        right: 0;           
     }
+    @media (max-width: 500px) {
+        bottom: 32px;
+      }
+    
 
     span {
         display: block;
