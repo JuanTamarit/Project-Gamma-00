@@ -33,14 +33,26 @@ img {
 // }
 
 .project__video {
+  width: 45%;
+  height: auto;
   display: flex;
-      justify-content: center;
-      margin: auto;
+  justify-content: center;
+  margin: auto;
+
+      @media (max-width: 500px) {
+        width: 90%;
+        height: auto;
+      }
 }
 
 .project__img-container {
   margin: $big-scale-unit-4 auto $big-scale-unit-4 auto;
   width: 75%;
+
+  @media (max-width: 500px) {
+    margin: $big-scale-unit-4 auto $big-scale-unit-4 auto;
+    width: 90%;
+  }
 
   img {
     border: 0.5px solid $color-primary;

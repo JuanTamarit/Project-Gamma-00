@@ -67,12 +67,7 @@ function Maslowui() {
             </div>
           </div>
           <div className="project__img-container">
-            <video
-              className="project__video"
-              width="40%"
-              height="auto"
-              controls
-            >
+            <video className="project__video" controls>
               <source src="/img/maslow/maslowwebvideo.mp4" type="video/mp4" />
             </video>
             <span className="project__img-container--caption"></span>
