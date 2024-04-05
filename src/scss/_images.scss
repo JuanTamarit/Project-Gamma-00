@@ -32,6 +32,12 @@ img {
 //  rgba(45, 0, 246, 0.25) 100%);   
 // }
 
+.project__video {
+  display: flex;
+      justify-content: center;
+      margin: auto;
+}
+
 .project__img-container {
   margin: $big-scale-unit-4 auto $big-scale-unit-4 auto;
   width: 75%;

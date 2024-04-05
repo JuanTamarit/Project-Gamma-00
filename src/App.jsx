@@ -22,6 +22,7 @@ import Editorial from "./views/projects/Editorial";
 import Packaging from "./views/projects/Packaging";
 import Animacion from "./views/projects/Animacion";
 import Sonido from "./views/projects/Sonido";
+import Maslowui from "./views/projects/Maslowui";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           <Route path="/modelproject" element={<Modelproject />} />
           <Route path="/jazzing" element={<Jazzing />} />
           <Route path="/maslow" element={<Maslow />} />
+          <Route path="/maslowweb" element={<Maslowui />} />
+
           <Route path="/infografia" element={<Infografia />} />
           <Route path="/ilustraciones" element={<Ilustraciones />} />
           <Route path="/editorial" element={<Editorial />} />
