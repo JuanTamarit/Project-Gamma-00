@@ -118,11 +118,21 @@ export default function Home() {
           <section className="buttons-section">
             <span className="text-default">¿Quieres saber más?</span>
             <div className="buttons">
-              <Button
+              {/* <Button
+                url="/cvjuantamaritabril24.pdf"
+                download="/cvjuantamaritabril24.pdf"
                 buttonType="secondary"
                 icon={<Cv />}
                 text="Descargar CV"
-              />
+              /> */}
+              <a
+                className="btn primary h4 link"
+                href="/img/cvjuantamaritabril24.pdf"
+                download="cvjuantamaritabril24.pdf"
+              >
+                <Cv />
+                Descargar CV
+              </a>
               <Button
                 buttonType="primary"
                 url="/portafolio"

@@ -2,6 +2,12 @@
 @import '../../scss/_mixins';
 
 
+// .link {
+//   text-decoration: none;
+//   color: $color-primary;
+// padding-top: 50px;
+//   }
+
 .btn {
     font-weight: var(--weight-light);
     // color: var(--color-gray);
@@ -13,6 +19,11 @@
     // width: $default-scale-unit-20;
     width: 100%;
     height: $default-scale-unit-5;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-decoration: none;
+
     // padding-top: 0px; //ajuste manual para centrar el texto del botón
 
     @include tablet {
