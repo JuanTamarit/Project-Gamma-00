@@ -42,7 +42,7 @@ function Modelproject() {
           </h2>
           <ProjectInfo
             role="Diseñador UX/UI, Desarrollador"
-            typology="Web"
+            typology="Web, UX"
             technologies="React.js"
             tools="Figma, Illustrator, Vs Code, Git"
             agency="</Empty>"

@@ -47,13 +47,13 @@ function Dropdown() {
               <Link to="/modelproject" className="link">
                 <li>
                   <span>Sobre este portafolio</span>
-                  <span>Web</span>
+                  <span>Web, UX</span>
                 </li>
               </Link>
               <Link to="/maslowweb" className="link">
                 <li>
                   <span>Maslow</span>
-                  <span>Web</span>
+                  <span>Web, UI</span>
                 </li>
               </Link>
             </ul>

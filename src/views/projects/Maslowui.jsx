@@ -27,7 +27,7 @@ function Maslowui() {
           </h2>
           <ProjectInfo
             role="Diseñador web"
-            typology="UI"
+            typology="Web, UI"
             technologies="Wordpress"
             tools="Figma, Photoshop"
             agency="Proyecto Personal"
@@ -53,17 +53,18 @@ function Maslowui() {
           <div className="project-info">
             <div className="project-info__titles">
               <div className="h4 project-info__title">El proyecto</div>
-              <div className="h5 project-info__subtitle">
-                Una marca con trasfondo social
-              </div>
+              <div className="h5 project-info__subtitle">Aspectos gráficos</div>
             </div>
             <div className="project-info__description">
-              Este proyecto, ubicado dentro de la moda urbana, no es una marca
-              de camisetas al uso. Es más bien un soporte de expresión para
-              artistas, un soporte en el que reivindicar sus principios, y a su
-              vez, por su puesto, un medio de expresión también, a través de la
-              identificación, para un determinado grupo de jóvenes con unas
-              inquietudes y valores determinados.
+              Este proyecto, a nivel gráfico, está muy orientado al usuario.
+              Jóvenes de entre 18 y 25 años, personas creativas, reflexivas,
+              críticas, amantes de la naturaleza y de la moda urbana. Por ello,
+              se buscó una estética minimalista que transmite calma, con un rojo
+              especial predominante, evocando naturalismo, comunidad y artesanía
+              también, por su parecido al pigmento rojo primitivo. Estos
+              elementos se combinan con un logotipo anguloso y una tipografía
+              ancha, aportando ese toque transgresor tan propio de dicha
+              generación.
             </div>
           </div>
           <div className="project__img-container">
