@@ -2,11 +2,9 @@
 @import '../../scss/_mixins';
 
 
-// .link {
-//   text-decoration: none;
-//   color: $color-primary;
-// padding-top: 50px;
-//   }
+a {
+  text-decoration: none;
+  }
 
 .btn {
     font-weight: var(--weight-light);
