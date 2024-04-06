@@ -13,6 +13,7 @@ import Sphereempty from "../../components/Sphereempty/Sphereempty";
 import Download from "../../components/icons/download/download";
 import Cv from "../../components/icons/cv/cv";
 import PortafolioIcon from "../../components/icons/portafolio/portafolioIcon";
+import Cvbutton from "../../components/buttons/cvbutton";
 export default function Home() {
   return (
     <>
@@ -51,24 +52,26 @@ export default function Home() {
               ¡Hola! Mi nombre es Juan. Me defino como creativo porque no me
               considero un especialista, sino más bien un generalista. Mis
               habilidades fundamentales son el diseño gráfico y el diseño UX,
-              aunque tengo una amplia formación y experiencia musicales que me
-              gustaría aplicar también en proyectos transversales dentro del
-              mundo de la comunicación. No me siento diseñador únicamente,
-              además, porque me gusta conceptualizar, investigar y conocer los
-              procesos en profundidad.
+              aunque tengo formación y experiencia musicales que me gustaría
+              aplicar también en proyectos transversales dentro del mundo de la
+              comunicación. Por todo ello, no me siento diseñador únicamente, ya
+              que me gusta conceptualizar, investigar y conocer los procesos en
+              profundidad.
             </p>
             <br />
             <p>
               Aparte de mi formación académica, he sido influenciado por un
               entorno familiar repleto de otras disciplinas artísticas como la
-              pintura, ejercida por mi padre desde siempre, o las artes
-              escénicas, dedicación exclusiva de mi hermana.
+              pintura y las artes escénicas, lo cual ha sido y sigue siendo una
+              gran inspiración.
             </p>
             <br />
             <p>
               Actualmente, estoy buscando la oportunidad de poner en práctica
               mis conocimientos al servicio de los demás y de poder aprender
-              mucho en el proceso.
+              mucho en el proceso. Y además, estoy ampliando mi formación en los
+              ámbitos de dirección de arte e identidad corporativa de la mano de
+              la UPV, así como mejorando mi nivel de inglés.
             </p>
             {/* <br />
             <p>¡Gracias por tu tiempo!</p> */}
@@ -125,14 +128,7 @@ export default function Home() {
                 icon={<Cv />}
                 text="Descargar CV"
               /> */}
-              <a
-                className="btn primary h4 link"
-                href="/img/cvjuantamaritabril24.pdf"
-                download="cvjuantamaritabril24.pdf"
-              >
-                <Cv />
-                Descargar CV
-              </a>
+              <Cvbutton text="Descargar CV" />
               <Button
                 buttonType="primary"
                 url="/portafolio"

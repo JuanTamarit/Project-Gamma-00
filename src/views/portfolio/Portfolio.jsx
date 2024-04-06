@@ -6,6 +6,7 @@ import Download from "../../components/icons/download/download";
 import Mail from "../../components/icons/mail/mail";
 import { Link } from "react-router-dom";
 import Cv from "../../components/icons/cv/cv";
+import Cvbutton from "../../components/buttons/cvbutton";
 
 function Portfolio() {
   return (
@@ -18,7 +19,7 @@ function Portfolio() {
         <section className="buttons-section">
           <span className="text-default">¿Has visto suficiente?</span>
           <div className="buttons">
-            <Button buttonType="secondary" icon={<Cv />} text="Descargar CV" />
+            <Cvbutton text="Descargar CV" />
             <Button
               showIcon="show-icon"
               buttonType="primary"

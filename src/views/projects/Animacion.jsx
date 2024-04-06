@@ -11,8 +11,9 @@ import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
 import Cv from "../../components/icons/cv/cv";
+import Cvbutton from "../../components/buttons/cvbutton";
 
-function Animacion() {
+function Animacion(props) {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -23,7 +24,8 @@ function Animacion() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">07 </span>Autoretrato animado
+            <span className="project-number">{props.number} </span>Autoretrato
+            animado
           </h2>
           <ProjectInfo
             role="Diseñador gráfico, Diseñador sonoro"
@@ -65,11 +67,7 @@ function Animacion() {
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
-              <Button
-                icon={<Cv />}
-                buttonType="secondary"
-                text="CV detallado"
-              />
+              <Cvbutton text="CV detallado" />
               <Button
                 buttonType="primary"
                 url="/portafolio"

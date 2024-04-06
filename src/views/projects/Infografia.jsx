@@ -11,8 +11,9 @@ import { doc } from "firebase/firestore";
 import db from "../../firebase";
 import { useEffect } from "react";
 import Cv from "../../components/icons/cv/cv";
+import Cvbutton from "../../components/buttons/cvbutton";
 
-function Infografia() {
+function Infografia(props) {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -23,7 +24,8 @@ function Infografia() {
       <main className="project-main">
         <div className="project__header">
           <h2 className="h2">
-            <span className="project-number">04 </span>Cartel pedagógico
+            <span className="project-number">{props.number} </span>Cartel
+            pedagógico
           </h2>
           <ProjectInfo
             role="Diseñador gráfico"
@@ -93,11 +95,8 @@ function Infografia() {
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
-              <Button
-                icon={<Cv />}
-                buttonType="secondary"
-                text="CV detallado"
-              />
+              <Cvbutton text="CV detallado" />
+
               <Button
                 buttonType="primary"
                 url="/portafolio"
