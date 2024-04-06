@@ -96,7 +96,6 @@ function Infografia(props) {
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
               <Cvbutton text="CV detallado" />
-
               <Button
                 buttonType="primary"
                 url="/portafolio"

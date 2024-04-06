@@ -102,7 +102,7 @@ function Editorial(props) {
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
-              <Cvbutton text="CV detallado" />
+              <Cvbutton text="Cv detallado" />
               <Button
                 buttonType="primary"
                 url="/portafolio"
