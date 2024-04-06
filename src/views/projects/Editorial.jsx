@@ -102,14 +102,14 @@ function Editorial(props) {
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
-              <Cvbutton text="Cv detallado" />
-              <Button
+              <Cvbutton text="CV detallado" />
+              {/* <Button
                 buttonType="primary"
                 url="/portafolio"
                 icon={<Mail />}
                 text="Contactar"
                 showIcon="show-icon"
-              />
+              /> */}
             </div>
             {/* <Link to="/home" className="text-default project__home-link">
               <span className="project__home-link-arrow">←</span>Volver a la

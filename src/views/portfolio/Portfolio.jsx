@@ -17,16 +17,16 @@ function Portfolio() {
 
         <Dropdown />
         <section className="buttons-section">
-          <span className="text-default">¿Has visto suficiente?</span>
+          <span className="text-default">¿Te gustaría saber más?</span>
           <div className="buttons">
             <Cvbutton text="Descargar CV" />
-            <Button
+            {/* <Button
               showIcon="show-icon"
               buttonType="primary"
               url="/portafolio"
               icon={<Mail color="" />}
               text="Contactar"
-            />
+            /> */}
           </div>
         </section>
       </main>
