@@ -49,29 +49,34 @@ export default function Home() {
         <section className="content-section">
           <section className="bio-section text-regular">
             <p>
-              ¡Hola! Mi nombre es Juan. Me defino como creativo porque no me
-              considero un especialista, sino más bien un generalista. Mis
-              habilidades fundamentales son el diseño gráfico y el diseño UX,
-              aunque tengo formación y experiencia musicales que me gustaría
-              aplicar también en proyectos transversales dentro del mundo de la
-              comunicación. Por todo ello, no me siento diseñador únicamente, ya
-              que me gusta conceptualizar, investigar y conocer los procesos en
-              profundidad.
+              ¡Hola! Mi nombre es Juan. Soy un diseñador{" "}
+              <strong>vocacional e inquieto</strong>, al que le gusta formar
+              parte del proceso de creación de ideas. Mi
+              <strong> formación en los fundamentos de la programación</strong>,
+              me permite además sentirme cómodo en el ámbito digital.
             </p>
             <br />
             <p>
-              Aparte de mi formación académica, he sido influenciado por un
-              entorno familiar repleto de otras disciplinas artísticas como la
-              pintura y las artes escénicas, lo cual ha sido y sigue siendo una
-              gran inspiración.
+              Tengo una <strong>visión multidisciplinar</strong> del ámbito de
+              la comunicación, puesto que me atraen todas sus vertientes. Quizás
+              por haber sido influenciado por un entorno familiar artístico y
+              diverso, repleto de artes escénicas y plásticas, y por mi faceta
+              como músico profesional, previa a mi camino como diseñador.
+            </p>
+            <br />
+            <p>
+              Como persona, tengo un carácter{" "}
+              <strong>tranquilo pero proactivo</strong>. Y puedo trabajar bien
+              tanto individualmente como en equipo. Aunque tengo especial
+              interés en poder aprender y nutrirme de otras personas.
             </p>
             <br />
             <p>
               Actualmente, estoy buscando la oportunidad de poner en práctica
-              mis conocimientos al servicio de los demás y de poder aprender
-              mucho en el proceso. Y además, estoy ampliando mi formación en los
-              ámbitos de dirección de arte e identidad corporativa de la mano de
-              la UPV, así como mejorando mi nivel de inglés.
+              mis conocimientos al servicio de los demás. Y además, estoy
+              <strong> ampliando mi formación</strong> en los ámbitos de
+              dirección de arte e identidad corporativa de la mano de la UPV,
+              así como mejorando mi nivel de inglés.
             </p>
             {/* <br />
             <p>¡Gracias por tu tiempo!</p> */}
