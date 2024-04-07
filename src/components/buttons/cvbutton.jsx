@@ -26,8 +26,8 @@ function Cvbutton(props) {
         </Link> */}
       <a
         className="btn primary h4 link"
-        href="/img/cvjuantamaritabril24.pdf"
-        download="cvjuantamaritabril24.pdf"
+        href="/img/CVabr2024"
+        download="CVabr2024"
       >
         <Cv />
         {props.text}
