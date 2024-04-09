@@ -61,7 +61,9 @@ export default function Home() {
               la comunicación, puesto que me atraen todas sus vertientes. Quizás
               por haber sido influenciado por un entorno familiar artístico y
               diverso, repleto de artes escénicas y plásticas, y por mi faceta
-              como músico profesional, previa a mi camino como diseñador.
+              como músico profesional, previa a mi camino como diseñador. Ambas
+              cosas, me permiten plantear propuestas de diseño inmersivas y con
+              un toque diferencial importante.
             </p>
             <br />
             <p>
