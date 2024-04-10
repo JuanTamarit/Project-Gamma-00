@@ -83,7 +83,6 @@ function Sonido(props) {
               <div className="h5 project-info__subtitle">
                 <audio className="audioplayer" controls>
                   <source src="/sounds/Esbozosonoro3.mp3" type="audio/mp3" />
-                  Tu navegador no soporta el elemento de audio.
                 </audio>{" "}
               </div>
             </div>

@@ -28,6 +28,9 @@ function App() {
   return (
     <>
       <main className="text-default">
+        {/* <audio className="home__audioplayer" autoplay controls>
+          <source src="/sounds/web-background.mp3" type="audio/mp3" />
+        </audio> */}
         <Effect />
         <Effectright />
         <Routes>

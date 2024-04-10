@@ -24,6 +24,14 @@ body {
     font-family: $font-primary;    
 }
 
+.home__audioplayer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0%;
+  right: -10%;
+  transform: translate(-50%, -50%);
+}
+
 
 // .home-main {
 //     padding: 0 $horizontal-margins-mobile 0 $horizontal-margins-mobile;
