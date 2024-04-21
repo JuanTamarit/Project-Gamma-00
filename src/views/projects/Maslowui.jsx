@@ -27,7 +27,7 @@ function Maslowui(props) {
             <span className="project-number">{props.number} </span>Maslow
           </h2>
           <ProjectInfo
-            role="Diseñador web"
+            role="Diseñador web, Desarrollador"
             typology="Web, UI"
             technologies="Wordpress"
             tools="Figma, Photoshop"

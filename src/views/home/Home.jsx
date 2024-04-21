@@ -27,13 +27,13 @@ export default function Home() {
             <span className="h1">Juan Tamarit</span>
             <div>
               <h2 className="text-default hero-section__profession-text">
-                Creativo
+                Creativo especializado en
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                digital
+                diseño gráfico, UX/UI
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                multidisciplinar
+                y diseño sonoro
               </h2>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
         <section className="content-section">
           <section className="bio-section text-regular">
             <p>
-              ¡Hola! Mi nombre es Juan. Soy un diseñador{" "}
+              ¡Hola! Soy Juan, un profesional{" "}
               <strong>vocacional e inquieto</strong>, al que le gusta formar
               parte del proceso de creación de ideas. Mi
               <strong> formación en los fundamentos de la programación</strong>,
@@ -57,26 +57,24 @@ export default function Home() {
             </p>
             <br />
             <p>
-              Tengo una <strong>visión multidisciplinar</strong> del ámbito de
-              la comunicación, puesto que me atraen todas sus vertientes. Quizás
-              por haber sido influenciado por un entorno familiar artístico y
-              diverso, repleto de artes escénicas y plásticas, y por mi faceta
-              como músico profesional, previa a mi camino como diseñador.
+              Tengo una <strong>visión transversal</strong> de la comunicación y
+              me atraen todas sus vertientes. Quizás por haber crecido en un
+              entorno familiar artístico y diverso, y por mi faceta como músico
+              profesional, previa a mi camino como diseñador.
             </p>
             <br />
             <p>
               Como persona, tengo un carácter{" "}
-              <strong>tranquilo pero proactivo</strong>. Y puedo trabajar bien
+              <strong>tranquilo pero proactivo</strong>. Y me gusta trabajar
               tanto individualmente como en equipo. Aunque tengo especial
-              interés en poder aprender y nutrirme de otras personas.
+              interés en poder nutrirme de otras personas.
             </p>
             <br />
             <p>
               Actualmente, estoy buscando la oportunidad de poner en práctica
-              mis conocimientos al servicio de los demás. Y además, estoy
+              mis conocimientos al servicio de los demás. Aparte de estar
               <strong> ampliando mi formación</strong> en los ámbitos de
-              dirección de arte e identidad corporativa de la mano de la UPV,
-              así como mejorando mi nivel de inglés.
+              dirección de arte e identidad visual.
             </p>
             {/* <br />
             <p>¡Gracias por tu tiempo!</p> */}
@@ -86,7 +84,7 @@ export default function Home() {
             <div className="skills-section__knowledges-container">
               <span className="h3">Conocimientos</span>
               <div className="skills-section__skills-group--knowledges">
-                <Skill type="rounded" text="Dirección artística" />
+                <Skill type="straight" text="Dirección artística" />
                 <Skill type="rounded" text="Diseño gráfico" />
                 <Skill type="straight" text="UX/UI" />
                 <Skill type="rounded" text="Desarrollo web" />
