@@ -30,10 +30,10 @@ export default function Home() {
                 Creativo especializado en
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                diseño gráfico, UX/UI
+                Diseño gráfico, UX/UI
               </h2>
               <h2 className="text-default hero-section__profession-text">
-                y diseño sonoro
+                y Diseño sonoro
               </h2>
             </div>
           </div>
