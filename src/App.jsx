@@ -23,6 +23,7 @@ import Packaging from "./views/projects/Packaging";
 import Animacion from "./views/projects/Animacion";
 import Sonido from "./views/projects/Sonido";
 import Maslowui from "./views/projects/Maslowui";
+import ProjectTemplate from "./views/projects/ProjectTemplate";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/packaging" element={<Packaging number="08" />} />
           <Route path="/animacion" element={<Animacion number="09" />} />
           <Route path="/sonido" element={<Sonido number="10" />} />
+          <Route path="/ProjectTemplate" element={<ProjectTemplate number="11" />} />
 
           {/* <Route path="/project" element={<Project />} /> */}
           {/* <Route path="/personalportfolio" element={<Personalportfolio />} /> */}

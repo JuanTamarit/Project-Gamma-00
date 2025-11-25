@@ -78,6 +78,12 @@ function Dropdown() {
                   <span>Jazzing Festival</span>
                   <span>Identidad</span>
                 </li>
+              </Link><Link to="ProjectTemplate" className="link"
+              >
+                <li>
+                  <span>Project Template</span>
+                  <span>Identidad</span>
+                </li>
               </Link>
               <Link to="/maslow" className="link">
                 <li>
