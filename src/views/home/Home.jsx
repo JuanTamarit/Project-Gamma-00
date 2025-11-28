@@ -48,33 +48,21 @@ export default function Home() {
         </section>
         <section className="content-section">
           <section className="bio-section text-regular">
-            <p>
-              ¡Hola! Soy Juan, un profesional{" "}
-              <strong>vocacional e inquieto</strong>, al que le gusta formar
-              parte del proceso de creación de ideas. Mi
-              <strong> formación en los fundamentos de la programación</strong>,
-              me permite además sentirme cómodo en el ámbito digital.
-            </p>
-            <br />
-            <p>
-              Tengo una <strong>visión transversal</strong> de la comunicación y
-              me atraen todas sus vertientes. Quizás por haber crecido en un
-              entorno familiar artístico y diverso, y por mi faceta como músico
-              profesional, previa a mi camino como diseñador.
-            </p>
-            <br />
-            <p>
-              Como persona, tengo un carácter{" "}
-              <strong>tranquilo pero proactivo</strong>. Y me gusta trabajar
-              tanto individualmente como en equipo. Aunque tengo especial
-              interés en poder nutrirme de otras personas.
-            </p>
-            <br />
-            <p>
-              Actualmente, estoy buscando la oportunidad de poner en práctica
-              mis conocimientos al servicio de los demás. Aparte de estar
-              <strong> ampliando mi formación</strong> en los ámbitos de
-              dirección de arte e identidad visual.
+            <p className="h3">
+              Nos presentamos,<br></br>
+Kiron se centra en el desarrollo de artistas musicales. Potenciamos tu identidad visual y/o sonora que te permita atraer a tu público y conectar con él, que te permita iniciar una carrera musical en serio, o darle un empujón enorme si ya está iniciada.
+
+¿Cuál es nuestro objetivo? Que te conozcan primero, para poder llenar salas después.
+
+Para ello, nos servimos de los medios digitales, fundamentales hoy en día, para darte presencia y lograr que los programadores confíen en ti.
+
+• Si eres un/a artista con un sonido definido, te brindamos las herramientas necesarias para que consigas llenar la agenda por ti mismo.
+
+• Si eres un diamante en bruto, te ofrecemos además asesoramiento musical de calidad, para que puedas lanzar tu proyecto artístico y esté listo para los escenarios.
+
+Nuestro propósito es guiarte y que, como artista, encuentres el lugar que realmente mereces.
+
+¿Nos dejas acompañarte?
             </p>
             {/* <br />
             <p>¡Gracias por tu tiempo!</p> */}
