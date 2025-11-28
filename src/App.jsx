@@ -29,11 +29,12 @@ function App() {
   return (
     <>
       <main className="text-default">
+        
         <audio className="home__audioplayer" controls autoplay>
           <source src="/sounds/web-background.mp3" type="audio/mp3" />
         </audio>
-        <Effect />
-        <Effectright />
+        {/* <Effect />
+        <Effectright /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

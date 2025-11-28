@@ -6,12 +6,15 @@ $color-fluor-blue-lightest: hsl(251 % 360, 100%, 97%);
 
 
     //COLOR IMPLEMENTATION
-    $color-primary: black;
+    // $color-primary: black;
+    $color-primary: #f5f5f5;
     $color-primary-light: $color-fluor-blue-light;
     $color-primary-lighter: $color-fluor-blue-lighter;
     $color-primary-lightest: $color-fluor-blue-lightest;
 
-    $color-secondary: #3137fd;
+    // $color-secondary: #3137fd;
+    $color-secondary: #1a1a1a;
+
 
 
 
