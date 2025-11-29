@@ -189,7 +189,7 @@ function Dropdown() {
                 }}
               >
                 {proyectos.map((proj) => (
-                  <Link to={proj.ruta} className="link" key={proj.titulo}>
+                  <Link to={proj.carpeta} className="link" key={proj.titulo}>
                     <li>
                       <span>{proj.titulo}</span>
                       <span>{proj.tipo}</span>

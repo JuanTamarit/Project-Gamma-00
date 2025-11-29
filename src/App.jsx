@@ -24,6 +24,8 @@ import Animacion from "./views/projects/Animacion";
 import Sonido from "./views/projects/Sonido";
 import Maslowui from "./views/projects/Maslowui";
 import ProjectTemplate from "./views/projects/ProjectTemplate";
+import PlantillaProyecto from "./views/projects/PlantillaProyecto";
+import projects from "./data/projects.json";
 
 function App() {
   return (
@@ -54,12 +56,16 @@ function App() {
           <Route path="/animacion" element={<Animacion number="09" />} />
           <Route path="/sonido" element={<Sonido number="10" />} />
           <Route path="/ProjectTemplate" element={<ProjectTemplate number="11" />} />
+          <Route path="/cacadevaca" element={<PlantillaProyecto />} />
+          <Route path="/:carpeta" element={<PlantillaProyecto projects={projects} />} />
 
           
         </Routes>
+        
       </main>
     </>
   );
 }
 
 export default App;
+

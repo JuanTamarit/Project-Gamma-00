@@ -10,5 +10,19 @@
     "ruta": "/jazzing",
     "carpeta": "2025",
     "tipo": "Identidad"
+  },
+  {
+    "titulo": "cacadevaca",
+    "ruta": "/cacadevaca",
+    "carpeta": "cacadevaca",
+    "tipo": "Identidad"
   }
+  ,
+  {
+    "titulo": "Chocolate",
+    "ruta": "/rutatesteo",
+    "carpeta": "vidasana",
+    "tipo": "Identidad"
+  }
+  
 ]
