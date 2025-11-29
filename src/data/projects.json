@@ -1,28 +1,187 @@
 [
   {
-    "titulo": "Maslow",
-    "ruta": "/maslowweb",
-    "carpeta": "2024",
-    "tipo": "Web, UI"
+    "carpeta": "Fotografía",
+    "number": "01",
+    "title": "Landing Page Corporativa",
+    "role": "ddllador Frontend",
+    "typology": "Web",
+    "technologies": ["React", "CSS", "HTML"],
+    "tools": ["VSCode", "Git"],
+    "agency": "Agencia Alfa",
+    "client": "Cliente A",
+    "year": "2025",
+    "link": "https://clientea.com",
+    "intro": "Este proyecto consistió en desarrollar una landing page moderna y responsiva para presentar la marca y sus servicios.",
+    "paragraphs": [
+      {
+        "header": "Objetivo del Proyecto",
+        "text": "El objetivo principal era aumentar la conversión de leads a través de un diseño atractivo y sencillo de navegar."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://fastly.picsum.photos/id/449/200/300.jpg?hmac=AswURfv1K7eMpuBVd_fnQVIDJrSBQeNmhwj13ofwljM",
+        "caption": "Vista principal de la landing"
+      },
+      {
+        "type": "video",
+        "src": "/media/proyecto-01/video1.mp4",
+        "caption": "Demo interactiva"
+      }
+    ],
+    "paragraphs": [
+      {
+        "header": "Objetivo del Proyecto",
+        "text": "El objetivo principal era aumentar la conversión de leads a través de un diseño atractivo y sencillo de navegar."
+      }
+    ]
   },
   {
-    "titulo": "Jazzing Festival",
-    "ruta": "/jazzing",
-    "carpeta": "2025",
-    "tipo": "Identidad"
+    "carpeta": "Fotografía",
+    "number": "02",
+    "title": "Rediseño de App Móvil",
+    "role": "UX/UI Designer",
+    "typology": "App",
+    "technologies": ["Figma", "React Native"],
+    "tools": ["Sketch", "Zeplin"],
+    "agency": "Agencia Beta",
+    "client": "Cliente B",
+    "year": "2024",
+    "link": "https://clienteb.com",
+    "intro": "Rediseño completo de la app móvil para mejorar la experiencia de usuario y optimizar el flujo de navegación.",
+    "paragraphs": [
+      {
+        "header": "Investigación",
+        "text": "Se realizaron entrevistas y pruebas de usabilidad para identificar puntos de fricción en la app existente."
+      },
+      {
+        "header": "Diseño de Interfaz",
+        "text": "Se implementó un diseño minimalista con colores de marca consistentes y tipografía legible."
+      },
+      {
+        "header": "Testing",
+        "text": "Se llevaron a cabo pruebas con usuarios reales para validar la nueva experiencia antes del lanzamiento."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "/media/proyecto-02/screen1.png",
+        "caption": "Pantalla de inicio"
+      },
+      {
+        "type": "audio",
+        "src": "/media/proyecto-02/audio1.mp3",
+        "caption": "Feedback sonoro de interacción"
+      }
+    ]
   },
   {
-    "titulo": "cacadevaca",
-    "ruta": "/cacadevaca",
-    "carpeta": "cacadevaca",
-    "tipo": "Identidad"
-  }
-  ,
+    "carpeta": "proyecto-03",
+    "number": "03",
+    "title": "Identidad Visual",
+    "role": "Brand Designer",
+    "typology": "Gráfico",
+    "technologies": ["Illustrator", "Photoshop"],
+    "tools": ["Wacom Tablet"],
+    "agency": "Agencia Gamma",
+    "client": "Cliente C",
+    "year": "2023",
+    "link": "https://clientec.com",
+    "intro": "Creación de identidad visual completa para la marca, incluyendo logo, paleta de colores y aplicaciones gráficas.",
+    "paragraphs": [
+      {
+        "header": "Concepto",
+        "text": "El concepto se centró en transmitir innovación y confianza, mediante formas geométricas y tipografía moderna."
+      },
+      {
+        "header": "Aplicaciones",
+        "text": "Se desarrollaron mockups para papelería, packaging y banners digitales, asegurando consistencia visual."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "/media/proyecto-03/logo.png",
+        "caption": "Logo principal"
+      },
+      {
+        "type": "image",
+        "src": "/media/proyecto-03/poster.jpg",
+        "caption": "Póster promocional"
+      }
+    ]
+  },
   {
-    "titulo": "Chocolate",
-    "ruta": "/rutatesteo",
-    "carpeta": "vidasana",
-    "tipo": "Identidad"
+    "carpeta": "proyecto-04",
+    "number": "04",
+    "title": "Animación 3D",
+    "role": "Animator",
+    "typology": "Animación",
+    "technologies": ["Blender", "After Effects"],
+    "tools": ["Wacom", "Premiere"],
+    "agency": "Agencia Delta",
+    "client": "Cliente D",
+    "year": "2025",
+    "link": "https://cliented.com",
+    "intro": "Animación 3D para un spot publicitario que combina creatividad y narrativa visual.",
+    "paragraphs": [
+      {
+        "header": "Storyboard",
+        "text": "Se creó un storyboard detallado para planificar las escenas y la animación de personajes."
+      },
+      {
+        "header": "Producción 3D",
+        "text": "Modelado, texturizado y renderizado de todos los assets en Blender, seguido de la postproducción en After Effects."
+      },
+      {
+        "header": "Entrega",
+        "text": "Se entregó el spot en formatos adaptados para web y redes sociales."
+      }
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "/media/proyecto-04/spot.mp4",
+        "caption": "Spot animado"
+      }
+    ]
+  },
+  {
+    "carpeta": "Puto Asco",
+    "number": "15",
+    "title": "Toni Carrillo website",
+    "role": "Brand Designer",
+    "typology": "Gráfico",
+    "technologies": ["Illustrator", "Photoshop"],
+    "tools": ["Wacom Tablet"],
+    "agency": "Agencia Gamma",
+    "client": "Cliente C",
+    "year": "2023",
+    "link": "https://clientec.com",
+    "intro": "Creación de identidad visual completa para la marca, incluyendo logo, paleta de colores y aplicaciones gráficas.",
+    "paragraphs": [
+      {
+        
+        "text": "El concepto se centró en transmitir innovación y confianza, mediante formas geométricas y tipografía moderna."
+      },
+      {
+        "header": "Aplicaciones",
+        "text": "Se desarrollaron mockups para papelería, packaging y banners digitales, asegurando consistencia visual."
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "/media/proyecto-03/logo.png",
+        "caption": "Logo principal"
+      },
+      {
+        "type": "image",
+        "src": "/media/proyecto-03/poster.jpg",
+        "caption": "Póster promocional"
+      }
+    ]
   }
-  
 ]

@@ -4,24 +4,21 @@ import "./Modelproject.scss";
 import Topbar from "../../components/topbar/Topbar";
 import ProjectInfo from "../../components/ProjectInfo/ProjectInfo";
 import Cvbutton from "../../components/buttons/cvbutton";
-import projects from "../../data/projects.json"; // Tu JSON de proyectos
 
-function PlantillaProyecto() {
-  const { carpeta } = useParams(); // Extrae el nombre de la carpeta de la URL
-
-  // Busca el proyecto que coincida con la carpeta de la URL
+function PlantillaProyecto({ projects }) {
+  const { carpeta } = useParams();
   const project = projects.find((p) => p.carpeta === carpeta);
 
-  // Si no encuentra el proyecto
-  if (!project) {
-    return <p>Proyecto no encontrado</p>;
-  }
+  if (!project) return <p>Proyecto no encontrado</p>;
+
+  const scrollToTop = () => window.scrollTo(0, 0);
 
   return (
     <>
       <Topbar url="/portafolio" link="←Proyectos" />
 
       <main className="project-main">
+        {/* HEADER */}
         <div className="project__header">
           <h2 className="h2">
             <span className="project-number">{project.number} </span>
@@ -44,7 +41,24 @@ function PlantillaProyecto() {
           </div>
         </div>
 
+        {/* CONTENIDO */}
         <div className="project__content">
+          {/* Renderizar párrafos con encabezados */}
+          {project.paragraphs &&
+            project.paragraphs.map((para, idx) => (
+              <div className="project-info" key={idx}>
+                <div className="project-info__titles">
+                  <div className="h4 project-info__title">{para.header}</div>
+                  {/* opcional subtítulo: si tienes subtitulo en JSON */}
+                  {para.subtitle && (
+                    <div className="h5 project-info__subtitle">{para.subtitle}</div>
+                  )}
+                </div>
+                <div className="project-info__description">{para.text}</div>
+              </div>
+            ))}
+
+          {/* Renderizar media */}
           {project.media.map((item, idx) => (
             <div className="project__img-container" key={idx}>
               {item.type === "video" && (
@@ -60,13 +74,13 @@ function PlantillaProyecto() {
                   <source src={item.src} type="audio/mp3" />
                 </audio>
               )}
-
               {item.caption && (
                 <span className="project__img-container--caption">{item.caption}</span>
               )}
             </div>
           ))}
 
+          {/* BOTONES */}
           <section className="buttons-section">
             <span className="text-default">¿Has visto suficiente?</span>
             <div className="buttons">
