@@ -39,7 +39,7 @@ a {
         }
     }
     &.primary.h4 {
-        // color: white;
+        color: $color-primary ;
     } 
     &.primary:hover, &.primary:active {
         background: radial-gradient(ellipse 150px 60px at center, rgba($color-secondary, 0.3), transparent);

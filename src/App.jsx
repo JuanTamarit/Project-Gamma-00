@@ -30,11 +30,10 @@ function App() {
     <>
       <main className="text-default">
         
-        <audio className="home__audioplayer" controls autoplay>
+        {/* <audio className="home__audioplayer" controls autoplay>
           <source src="/sounds/web-background.mp3" type="audio/mp3" />
-        </audio>
-        {/* <Effect />
-        <Effectright /> */}
+        </audio> */}
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -56,9 +55,7 @@ function App() {
           <Route path="/sonido" element={<Sonido number="10" />} />
           <Route path="/ProjectTemplate" element={<ProjectTemplate number="11" />} />
 
-          {/* <Route path="/project" element={<Project />} /> */}
-          {/* <Route path="/personalportfolio" element={<Personalportfolio />} /> */}
-          {/* <Route path="/maslow" element={<Maslow />} /> */}
+          
         </Routes>
       </main>
     </>

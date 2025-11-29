@@ -20,9 +20,7 @@ export default function Home() {
       <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
         <section className="hero-section">
-          {/* <Cube />
-          <Sphere />
-          <Cone /> */}
+          
           <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
