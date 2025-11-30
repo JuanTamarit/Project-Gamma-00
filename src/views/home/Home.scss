@@ -1,117 +1,149 @@
-@import '../../scss/_variables';
-@import '../../scss/_mixins';
+@import "../../scss/_variables";
+@import "../../scss/_mixins";
 
 .home-main {
-    overflow: hidden;
-    .buttons-section {
-        padding: 0 $big-scale-unit-3;    }
+  overflow: hidden;
+  .buttons-section {
+    padding: 0 $big-scale-unit-3;
+  }
 }
 
-
 .hero-section {
-    padding-top: 65px;
-    height: calc(100vh);  
-    
+  padding-top: 65px;
+  height: calc(100vh);
 
-    &__main-text {
-        display: flex;
-        flex-direction: column; 
-        margin-top: $default-scale-unit-8;
-        margin-bottom: 22.56vh;      
-        gap: 3.76vh;  
-        @include tablet {
-            max-width: 50%;
-        }
+  .logotipo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+gap: calc(90px / 4.2);
+
+    
+  }
+
+  .symbol {
+    img {
+        width: 90px;
+        height: auto;
     }
-    &__profession-text {
-        text-align: right;
-        font-weight: $font-weight-regular;
-        @include tablet {
-            text-align: left;
-        }
-    }        
+  }
+
+  .logo {
+    width: 90px * 4.13;
+
+        height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .logotipo {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: calc(130px / 2.1);
+    }
+    .symbol {
+
+    img {
+        width: 130px;
+        height: auto;
+    }
+  }
+
+  .logo {
+    width: 130px * 4.13;
+        height: auto;
+  }
+  }
+
+  &__main-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: $default-scale-unit-8;
+    margin-bottom: 22.56vh;
+    gap: 3.76vh;
+    @include tablet {
+      max-width: 50%;
+    }
+  }
+  &__profession-text {
+    text-align: right;
+    font-weight: $font-weight-regular;
+    @include tablet {
+      text-align: left;
+    }
+  }
 }
 
 .content-section {
-    padding-top: $default-scale-unit-4; 
+  padding-top: $default-scale-unit-4;
+  display: flex;
+  flex-direction: column;
+  gap: $big-scale-unit-6;
+  @include tablet {
+    padding-top: $default-scale-unit-8;
+  }
+
+  .skills-section {
     display: flex;
     flex-direction: column;
-    gap: $big-scale-unit-6;
-    @include tablet {
-        padding-top: $default-scale-unit-8; 
 
+    &__knowledges-container {
+      margin-bottom: $big-scale-unit-5;
+      @include tablet {
+        max-width: 60%;
+      }
     }
-    
-    .skills-section {
+    &__tools-container {
+      text-align: right;
+      margin-bottom: $big-scale-unit-5;
+      align-self: flex-end;
+      @include tablet {
+        max-width: 50%;
+      }
+    }
+    &__technologies-container {
+      @include tablet {
+        max-width: 50%;
+        margin-bottom: $big-scale-unit-4;
+      }
+    }
+
+    & span.h3 {
+      display: block;
+      margin-bottom: $big-scale-unit-2;
+    }
+  }
+
+  .buttons-section {
+    text-align: center;
+    padding-bottom: $big-scale-unit-5;
+
+    span {
+      display: block;
+      text-align: center;
+      padding-bottom: $big-scale-unit-3;
+    }
+    .buttons {
+      @include tablet {
         display: flex;
-        flex-direction: column;
-        
-        &__knowledges-container {
-            margin-bottom: $big-scale-unit-5;
-            @include tablet {
-                max-width: 60%;
-            }
-        }        
-        &__tools-container {
-            text-align: right;
-            margin-bottom: $big-scale-unit-5;
-            align-self: flex-end;
-            @include tablet {
-                max-width: 50%;
-            }            
-        }    
-        &__technologies-container {
-            @include tablet {
-                max-width: 50%;
-                margin-bottom: $big-scale-unit-4;
-            }            
-        }      
-
-        & span.h3 {
-            display: block;
-            margin-bottom: $big-scale-unit-2;
-        }
+        gap: $big-scale-unit-2;
+        justify-content: center;
+      }
     }
-
-    .buttons-section {
-        text-align: center;
-        padding-bottom: $big-scale-unit-5;  
-
-        span {
-        display: block;
-        text-align: center;  
-        padding-bottom: $big-scale-unit-3;
-        }
-        .buttons {
-            @include tablet {
-                display: flex;
-                gap: $big-scale-unit-2;
-                justify-content: center;
-            }
-        }
-    }
+  }
 }
 
 [class^="skills-section__skills-group"] {
-    display: flex;
-    flex-wrap: wrap;    
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .skills-section__skills-group--tools {
-        justify-content: right;    
-  }
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
+.skills-section__skills-group--tools {
+  justify-content: right;
+}

@@ -20,7 +20,17 @@ export default function Home() {
       <Topbar url="/portafolio" link="→Portafolio" />
       <main className="home-main">
         <section className="hero-section">
-          
+          <header className="logotipo">
+            <div className="symbol">
+              
+              <img src="/img/kironWebSimbolo3.svg" />
+            </div>
+
+            <div className="logo">
+              <img src="/img/kironWebLogo3.svg" />
+            </div>
+          </header>
+
           {/* <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
@@ -48,19 +58,20 @@ export default function Home() {
           <section className="bio-section text-regular">
             <p className="h3">
               Nos presentamos,<br></br>
-Kiron se centra en el desarrollo de artistas musicales. Potenciamos tu identidad visual y/o sonora que te permita atraer a tu público y conectar con él, que te permita iniciar una carrera musical en serio, o darle un empujón enorme si ya está iniciada.
-
-¿Cuál es nuestro objetivo? Que te conozcan primero, para poder llenar salas después.
-
-Para ello, nos servimos de los medios digitales, fundamentales hoy en día, para darte presencia y lograr que los programadores confíen en ti.
-
-• Si eres un/a artista con un sonido definido, te brindamos las herramientas necesarias para que consigas llenar la agenda por ti mismo.
-
-• Si eres un diamante en bruto, te ofrecemos además asesoramiento musical de calidad, para que puedas lanzar tu proyecto artístico y esté listo para los escenarios.
-
-Nuestro propósito es guiarte y que, como artista, encuentres el lugar que realmente mereces.
-
-¿Nos dejas acompañarte?
+              Kiron se centra en el desarrollo de artistas musicales.
+              Potenciamos tu identidad visual y/o sonora que te permita atraer a
+              tu público y conectar con él, que te permita iniciar una carrera
+              musical en serio, o darle un empujón enorme si ya está iniciada.
+              ¿Cuál es nuestro objetivo? Que te conozcan primero, para poder
+              llenar salas después. Para ello, nos servimos de los medios
+              digitales, fundamentales hoy en día, para darte presencia y lograr
+              que los programadores confíen en ti. • Si eres un/a artista con un
+              sonido definido, te brindamos las herramientas necesarias para que
+              consigas llenar la agenda por ti mismo. • Si eres un diamante en
+              bruto, te ofrecemos además asesoramiento musical de calidad, para
+              que puedas lanzar tu proyecto artístico y esté listo para los
+              escenarios. Nuestro propósito es guiarte y que, como artista,
+              encuentres el lugar que realmente mereces. ¿Nos dejas acompañarte?
             </p>
             {/* <br />
             <p>¡Gracias por tu tiempo!</p> */}
