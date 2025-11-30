@@ -21,7 +21,7 @@ export default function Home() {
       <main className="home-main">
         <section className="hero-section">
           
-          <div className="hero-section__main-text">
+          {/* <div className="hero-section__main-text">
             <span className="h1">Juan Tamarit</span>
             <div>
               <h2 className="text-default hero-section__profession-text">
@@ -34,7 +34,7 @@ export default function Home() {
                 y Diseño sonoro
               </h2>
             </div>
-          </div>
+          </div> */}
           <Credits />
           {/* <div className="hero-section__floor-container">
             <img
